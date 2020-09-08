@@ -39,7 +39,7 @@ To install the chart with the release name `my-release`:
 ```bash
 helm repo add ksandermann http://charts.sandermann.cloud
 helm repo update
-helm install haproxy-exporter haproxy-exporter
+helm install ksandermann/haproxy-exporter
 ```
 
 The command deploys HAProxy Exporter on the Kubernetes cluster in the
